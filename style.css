@@ -132,6 +132,22 @@ footer p {
     margin: 1rem;
 }
 
+/* Adding quotes */
+.card p::before{
+    content: open-quote;
+    font-size:3em;
+    position: absolute;
+    /* relative to the container card */
+    top: -0.25em;
+    left: -0.5em;}
+
+.card p::after{
+    content: close-quote;
+    font-size: 3em;
+    position: absolute;
+    top: -0.25em;
+    right: 0.5em;}
+
 /* media query */
 /* xs small breakpoint 576px */
 @media screen and (min-width: 576px) {
