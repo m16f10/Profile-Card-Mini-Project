@@ -28,6 +28,15 @@ Implement media queries for responsiveness based on device sizes. Ensure a smoot
 # Landscape Mode:
 Include a media query specifically for landscape mode to handle devices that are rotated.
 
+# Color Palette:
+I've customized the color palette to give the project a unique look and feel for using [Coolors](https://coolors.co/).
+
+The project now features the following colors:
+
+- dark Color: #424874
+- Accent Color: #dcd6f7
+- Highlight Color: #a6b1e1
+
 ## Tutorial Link
 
 This project is inspired by a tutorial from @dave_ray. You can find the original tutorial on [YouTube](https://youtu.be/mpYtrgB3b6o?si=vd2fzk8-isAUsttZ). 
