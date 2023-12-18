@@ -40,8 +40,9 @@ body {
     /* what makes the header in top of the main in top of the footer */
 }
 
-header,
-footer {
+/* DRY - do not repeat */
+:where(header,
+footer){
     position: sticky;
     background-color: #424874;
     color: whitesmoke;
@@ -71,8 +72,8 @@ nav a:visited {
     cursor: pointer;
 }
 
-nav a:hover,
-nav a:focus {
+/* DRY - do not repeat */
+nav :is(a:hover,a:focus) {
     color: hsla(0, 0%, 20%, 0.6);
     cursor: pointer;
 }
