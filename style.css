@@ -47,6 +47,7 @@ footer){
     background-color: #424874;
     color: whitesmoke;
     text-align: center;
+    z-index: 1;
 }
 
 header {
